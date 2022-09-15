@@ -4,7 +4,8 @@ class AwsSearchInstances < Formula
   desc "Search AWS EC2 Instances and Export Tags to CSV"
   homepage "https://github.com/aws-samples/search-ec2-instances-export-tags"
   license "MIT"
-  head "https://github.com/aws-samples/search-ec2-instances-export-tags.git", branch: "main"
+  url "https://github.com/aws-samples/search-ec2-instances-export-tags.git", branch: "main"
+  version "0.0.1"
 
   depends_on "python@3.10"
 
